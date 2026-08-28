@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:title="@string/profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_dark_mode"
+        android:title="@string/dark_mode"
+        android:checkable="true"
+        app:showAsAction="never" />
+
+    <item android:title="@string/language">
+        <menu>
+            <item
+                android:id="@+id/action_lang_en"
+                android:title="English" />
+            <item
+                android:id="@+id/action_lang_ms"
+                android:title="Bahasa Melayu" />
+            <item
+                android:id="@+id/action_lang_zh"
+                android:title="中文" />
+        </menu>
+    </item>
+</menu>

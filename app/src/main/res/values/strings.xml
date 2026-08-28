@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">BudgetMilestoneTracker</string>
+
+    <!-- Screen titles -->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_manage_categories">Manage Categories</string>
+    <string name="title_transactions">Transactions</string>
+    <string name="title_add_edit_transaction">Add/Edit Transaction</string>
+    <string name="title_savings_goals">Savings Goals</string>
+    <string name="title_goal_details">Goal Details</string>
+    <string name="title_spending_chart">Spending Chart</string>
+
+    <!-- Category management -->
+    <string name="category_name">Category name</string>
+    <string name="monthly_limit">Monthly limit</string>
+    <string name="icon">Icon</string>
+    <string name="category_icon">Category icon</string>
+    <string name="add_category">Add category</string>
+    <string name="manage_categories">Manage Categories</string>
+
+    <!-- Savings goals -->
+    <string name="goal_label">Goal label</string>
+    <string name="target_amount">Target amount</string>
+    <string name="select_deadline">Select deadline</string>
+    <string name="add_goal">Add goal</string>
+    <string name="edit_goal">Edit goal</string>
+    <string name="delete_goal">Delete goal</string>
+    <string name="savings_goals">Savings Goals</string>
+    <string name="days_left">%d days left</string>
+    <string name="today_deadline">Today is the deadline!</string>
+    <string name="overdue">Overdue</string>
+    <string name="completed">Completed</string>
+
+    <!-- Transactions -->
+    <string name="add_transaction">Add transaction</string>
+    <string name="delete_transaction">Delete transaction</string>
+    <string name="title">Title</string>
+    <string name="amount">Amount</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="notes_optional">Notes (optional)</string>
+    <string name="save">Save</string>
+    <string name="empty_transactions">No transactions yet</string>
+    <string name="empty_categories">No categories yet</string>
+    <string name="empty_goals">No savings goals yet</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="delete_category_message">All transactions in this category will also be deleted.</string>
+    <string name="delete_goal_message">All contributions for this goal will also be deleted.</string>
+
+    <!-- Contributions -->
+    <string name="add_contribution">Add contribution</string>
+    <string name="delete_contribution">Delete contribution</string>
+
+    <!-- Spending summary -->
+    <string name="monthly_spending">Monthly Spending</string>
+    <string name="rm_0_00">RM 0.00</string>
+
+    <!-- Spending Chart -->
+    <string name="spending_chart">Spending Chart</string>
+    <string name="no_data">No data</string>
+
+    <!-- Menu -->
+    <string name="home">Home</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language">Language</string>
+    <string name="profile">Profile</string>
+
+    <!-- User -->
+    <string name="greeting">Hello, %1$s</string>
+    <string name="username">Username</string>
+
+    <!-- Form / buttons -->
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="undo">Undo</string>
+    <string name="add_category_title">Add Category</string>
+    <string name="edit_category_title">Edit Category</string>
+    <string name="new_savings_goal_title">New Savings Goal</string>
+    <string name="add_contribution_title">Add Contribution</string>
+    <string name="required">Required</string>
+    <string name="must_be_positive">Must be > 0</string>
+    <string name="no_categories_toast">Please create a category first</string>
+
+    <!-- Nudge -->
+    <string name="nudge_save_now">Save now</string>
+    <string name="nudge_saved">Saved RM%1$s!</string>
+    <string name="nudge_message">You\’re over budget in %1$s. Save RM%2$s to %3$s?</string>
+    <string name="forecast_on_track">On track</string>
+    <string name="forecast_at_risk">At risk</string>
+    <string name="forecast_off_track">Off track</string>
+    <string name="round_up_label">Enable smart round‑up</string>
+
+    <!-- Search -->
+    <string name="search_transactions">Search transactions</string>
+
+    <!-- Sort options -->
+    <string-array name="sort_options">
+        <item>Newest first</item>
+        <item>Oldest first</item>
+        <item>Amount high→low</item>
+        <item>Amount low→high</item>
+    </string-array>
+
+    <!-- Category icons -->
+    <string-array name="icon_names">
+        <item>ic_food</item>
+        <item>ic_transport</item>
+        <item>ic_shopping</item>
+        <item>ic_entertainment</item>
+        <item>ic_health</item>
+    </string-array>
+
+    <string-array name="icon_labels">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Shopping</item>
+        <item>Entertainment</item>
+        <item>Health</item>
+    </string-array>
+</resources>

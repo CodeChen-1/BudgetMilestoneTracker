@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Penjejak Belanjawan</string>
+
+    <!-- Screen titles -->
+    <string name="title_dashboard">Papan Pemuka</string>
+    <string name="title_manage_categories">Urus Kategori</string>
+    <string name="title_transactions">Transaksi</string>
+    <string name="title_add_edit_transaction">Tambah/Edit Transaksi</string>
+    <string name="title_savings_goals">Matlamat Simpanan</string>
+    <string name="title_goal_details">Butiran Matlamat</string>
+    <string name="title_spending_chart">Carta Perbelanjaan</string>
+
+    <!-- Category management -->
+    <string name="category_name">Nama kategori</string>
+    <string name="monthly_limit">Had bulanan</string>
+    <string name="icon">Ikon</string>
+    <string name="category_icon">Ikon kategori</string>
+    <string name="add_category">Tambah kategori</string>
+    <string name="manage_categories">Urus Kategori</string>
+
+    <!-- Savings goals -->
+    <string name="goal_label">Label matlamat</string>
+    <string name="target_amount">Jumlah sasaran</string>
+    <string name="select_deadline">Pilih tarikh akhir</string>
+    <string name="add_goal">Tambah matlamat</string>
+    <string name="edit_goal">Edit matlamat</string>
+    <string name="delete_goal">Padam matlamat</string>
+    <string name="savings_goals">Matlamat Simpanan</string>
+    <string name="days_left">%d hari lagi</string>
+    <string name="today_deadline">Hari ini tarikh akhir!</string>
+    <string name="overdue">Terlewat</string>
+    <string name="completed">Selesai</string>
+
+    <!-- Transactions -->
+    <string name="add_transaction">Tambah transaksi</string>
+    <string name="delete_transaction">Padam transaksi</string>
+    <string name="title">Tajuk</string>
+    <string name="amount">Jumlah</string>
+    <string name="pick_date">Pilih Tarikh</string>
+    <string name="notes_optional">Nota (pilihan)</string>
+    <string name="save">Simpan</string>
+    <string name="empty_transactions">Tiada transaksi lagi</string>
+    <string name="empty_categories">Tiada kategori lagi</string>
+    <string name="empty_goals">Tiada matlamat simpanan lagi</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Padam</string>
+    <string name="delete_category_message">Semua transaksi dalam kategori ini juga akan dipadam.</string>
+    <string name="delete_goal_message">Semua sumbangan untuk matlamat ini juga akan dipadam.</string>
+
+    <!-- Contributions -->
+    <string name="add_contribution">Tambah sumbangan</string>
+    <string name="delete_contribution">Padam sumbangan</string>
+
+    <!-- Spending summary -->
+    <string name="monthly_spending">Perbelanjaan Bulanan</string>
+    <string name="rm_0_00">RM 0.00</string>
+
+    <!-- Spending Chart -->
+    <string name="spending_chart">Carta Perbelanjaan</string>
+    <string name="no_data">Tiada data</string>
+
+    <!-- Menu -->
+    <string name="home">Halaman Utama</string>
+    <string name="dark_mode">Mod Gelap</string>
+    <string name="language">Bahasa</string>
+    <string name="profile">Profil</string>
+
+    <!-- User -->
+    <string name="greeting">Hai, %1$s</string>
+    <string name="username">Nama pengguna</string>
+
+    <!-- Form / buttons -->
+    <string name="cancel">Batal</string>
+    <string name="update">Kemas kini</string>
+    <string name="next">Seterusnya</string>
+    <string name="previous">Sebelumnya</string>
+    <string name="undo">Buat asal</string>
+    <string name="add_category_title">Tambah Kategori</string>
+    <string name="edit_category_title">Edit Kategori</string>
+    <string name="new_savings_goal_title">Matlamat Simpanan Baru</string>
+    <string name="add_contribution_title">Tambah Sumbangan</string>
+    <string name="required">Diperlukan</string>
+    <string name="must_be_positive">Mesti > 0</string>
+    <string name="no_categories_toast">Sila cipta kategori dahulu</string>
+
+    <!-- Nudge -->
+    <string name="nudge_save_now">Simpan sekarang</string>
+    <string name="nudge_saved">RM%1$s disimpan!</string>
+    <string name="nudge_message">Anda melebihi belanjawan untuk %1$s. Simpan RM%2$s ke %3$s?</string>
+    <string name="forecast_on_track">Di landasan</string>
+    <string name="forecast_at_risk">Berisiko</string>
+    <string name="forecast_off_track">Tidak tercapai</string>
+    <string name="round_up_label">Aktifkan simpanan pintar</string>
+
+    <!-- Search -->
+    <string name="search_transactions">Cari transaksi</string>
+
+    <!-- Sort options -->
+    <string-array name="sort_options">
+        <item>Terbaru dulu</item>
+        <item>Terlama dulu</item>
+        <item>Jumlah tinggi→rendah</item>
+        <item>Jumlah rendah→tinggi</item>
+    </string-array>
+
+    <!-- Category icons -->
+    <string-array name="icon_names">
+        <item>ic_food</item>
+        <item>ic_transport</item>
+        <item>ic_shopping</item>
+        <item>ic_entertainment</item>
+        <item>ic_health</item>
+    </string-array>
+
+    <string-array name="icon_labels">
+        <item>Makanan</item>
+        <item>Pengangkutan</item>
+        <item>Belanja</item>
+        <item>Hiburan</item>
+        <item>Kesihatan</item>
+    </string-array>
+</resources>

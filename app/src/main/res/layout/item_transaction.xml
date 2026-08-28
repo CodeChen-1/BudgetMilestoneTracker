@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="4dp"
+    app:cardElevation="1dp"
+    app:cardCornerRadius="8dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="?attr/colorSurfaceVariant"
+    android:background="?attr/colorSurface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView android:id="@+id/tvTitle" style="@style/TextAppearance.Material3.TitleMedium" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <TextView android:id="@+id/tvAmount" style="@style/TextAppearance.Material3.BodyMedium" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <TextView android:id="@+id/tvDate" style="@style/TextAppearance.Material3.BodySmall" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <TextView android:id="@+id/tvNote" style="@style/TextAppearance.Material3.BodySmall" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:ellipsize="end" />
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_delete"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/delete_transaction" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">预算与目标追踪器</string>
+
+    <!-- Screen titles -->
+    <string name="title_dashboard">仪表板</string>
+    <string name="title_manage_categories">管理类别</string>
+    <string name="title_transactions">交易记录</string>
+    <string name="title_add_edit_transaction">添加/编辑交易</string>
+    <string name="title_savings_goals">储蓄目标</string>
+    <string name="title_goal_details">目标详情</string>
+    <string name="title_spending_chart">支出图表</string>
+
+    <!-- Category management -->
+    <string name="category_name">类别名称</string>
+    <string name="monthly_limit">每月限额</string>
+    <string name="icon">图标</string>
+    <string name="category_icon">类别图标</string>
+    <string name="add_category">添加类别</string>
+    <string name="manage_categories">管理类别</string>
+
+    <!-- Savings goals -->
+    <string name="goal_label">目标标签</string>
+    <string name="target_amount">目标金额</string>
+    <string name="select_deadline">选择截止日期</string>
+    <string name="add_goal">添加目标</string>
+    <string name="edit_goal">编辑目标</string>
+    <string name="delete_goal">删除目标</string>
+    <string name="savings_goals">储蓄目标</string>
+    <string name="days_left">还有 %d 天</string>
+    <string name="today_deadline">今天截止！</string>
+    <string name="overdue">已逾期</string>
+    <string name="completed">已完成</string>
+
+    <!-- Transactions -->
+    <string name="add_transaction">添加交易</string>
+    <string name="delete_transaction">删除交易</string>
+    <string name="title">标题</string>
+    <string name="amount">金额</string>
+    <string name="pick_date">选择日期</string>
+    <string name="notes_optional">备注（可选）</string>
+    <string name="save">保存</string>
+    <string name="empty_transactions">暂无交易</string>
+    <string name="empty_categories">暂无类别</string>
+    <string name="empty_goals">暂无储蓄目标</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="delete_category_message">此类别中的所有交易也将被删除。</string>
+    <string name="delete_goal_message">此目标的所有存款也将被删除。</string>
+
+    <!-- Contributions -->
+    <string name="add_contribution">添加存款</string>
+    <string name="delete_contribution">删除存款</string>
+
+    <!-- Spending summary -->
+    <string name="monthly_spending">每月支出</string>
+    <string name="rm_0_00">RM 0.00</string>
+
+    <!-- Spending Chart -->
+    <string name="spending_chart">支出图表</string>
+    <string name="no_data">暂无数据</string>
+
+    <!-- Menu -->
+    <string name="home">主页</string>
+    <string name="dark_mode">深色模式</string>
+    <string name="language">语言</string>
+    <string name="profile">个人资料</string>
+
+    <!-- User -->
+    <string name="greeting">你好，%1$s</string>
+    <string name="username">用户名</string>
+
+    <!-- Form / buttons -->
+    <string name="cancel">取消</string>
+    <string name="update">更新</string>
+    <string name="next">下一个</string>
+    <string name="previous">上一个</string>
+    <string name="undo">撤销</string>
+    <string name="add_category_title">添加类别</string>
+    <string name="edit_category_title">编辑类别</string>
+    <string name="new_savings_goal_title">新储蓄目标</string>
+    <string name="add_contribution_title">添加存款</string>
+    <string name="required">必填</string>
+    <string name="must_be_positive">必须大于 0</string>
+    <string name="no_categories_toast">请先创建一个类别</string>
+
+    <!-- Nudge -->
+    <string name="nudge_save_now">立即储存</string>
+    <string name="nudge_saved">已储存 RM%1$s！</string>
+    <string name="nudge_message">你在 %1$s 的开销已超出预算。储存 RM%2$s 到 %3$s？</string>
+    <string name="forecast_on_track">按计划</string>
+    <string name="forecast_at_risk">有风险</string>
+    <string name="forecast_off_track">无法达标</string>
+    <string name="round_up_label">启用智能存钱</string>
+
+    <!-- Search -->
+    <string name="search_transactions">搜索交易</string>
+
+    <!-- Sort options -->
+    <string-array name="sort_options">
+        <item>最新在前</item>
+        <item>最早在前</item>
+        <item>金额高→低</item>
+        <item>金额低→高</item>
+    </string-array>
+
+    <!-- Category icons -->
+    <string-array name="icon_names">
+        <item>ic_food</item>
+        <item>ic_transport</item>
+        <item>ic_shopping</item>
+        <item>ic_entertainment</item>
+        <item>ic_health</item>
+    </string-array>
+
+    <string-array name="icon_labels">
+        <item>食品</item>
+        <item>交通</item>
+        <item>购物</item>
+        <item>娱乐</item>
+        <item>健康</item>
+    </string-array>
+</resources>

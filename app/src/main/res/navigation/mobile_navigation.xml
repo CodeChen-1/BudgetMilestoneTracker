@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.budgetmilestonetracker.ui.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_transactionListFragment"
+            app:destination="@id/transactionListFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_transactionFormFragment"
+            app:destination="@id/transactionFormFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_categoryManageFragment"
+            app:destination="@id/categoryManageFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_savingsGoalsFragment"
+            app:destination="@id/savingsGoalsFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_chartFragment"
+            app:destination="@id/chartFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoryManageFragment"
+        android:name="com.example.budgetmilestonetracker.ui.CategoryManageFragment"
+        android:label="@string/title_manage_categories" />
+
+    <fragment
+        android:id="@+id/transactionListFragment"
+        android:name="com.example.budgetmilestonetracker.ui.TransactionListFragment"
+        android:label="@string/title_transactions">
+        <argument android:name="categoryId" app:argType="long" android:defaultValue="0L" />
+        <action
+            android:id="@+id/action_transactionListFragment_to_transactionFormFragment"
+            app:destination="@id/transactionFormFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/transactionFormFragment"
+        android:name="com.example.budgetmilestonetracker.ui.TransactionFormFragment"
+        android:label="@string/title_add_edit_transaction">
+        <argument android:name="transactionId" app:argType="long" android:defaultValue="0L" />
+        <argument android:name="categoryId" app:argType="long" android:defaultValue="0L" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/savingsGoalsFragment"
+        android:name="com.example.budgetmilestonetracker.ui.SavingsGoalsFragment"
+        android:label="@string/title_savings_goals">
+        <action
+            android:id="@+id/action_savingsGoalsFragment_to_goalDetailsFragment"
+            app:destination="@id/goalDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/goalDetailsFragment"
+        android:name="com.example.budgetmilestonetracker.ui.GoalDetailsFragment"
+        android:label="@string/title_goal_details">
+        <argument android:name="goalId" app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.budgetmilestonetracker.ui.ProfileFragment"
+        android:label="@string/profile" />
+
+    <fragment
+        android:id="@+id/chartFragment"
+        android:name="com.example.budgetmilestonetracker.ui.ChartFragment"
+        android:label="@string/title_spending_chart" />
+</navigation>
